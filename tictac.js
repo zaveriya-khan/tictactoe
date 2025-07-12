@@ -81,6 +81,7 @@ let boxes = document.querySelectorAll(".box");
         if (count === 9) {
           msg.innerText = "It's a Draw!";
           msgContainer.classList.remove("hide");
+          msgContainer.classList.remove("emoji-firework");
         }
       };
 
